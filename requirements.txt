@@ -1,0 +1,5 @@
+python-telegram-bot==21.0.1
+SQLAlchemy==2.0.28
+requests==2.31.0
+polyline==2.0.2
+staticmap==0.5.7

@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+    telegram_travel_agent_bot:
+        container_name: TravelAgentBot
+        image: telegram_travel_agent_bot
+
+        build: .
+        command: python3 -m travel_bot
+
+        restart: on-failure
